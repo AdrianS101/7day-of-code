@@ -1,0 +1,289 @@
+:root {
+  --texto-cor: #667085;
+  --text-secundaria: #8e2424;
+  --font-principal: "Inter";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.links a {
+  color: var(--text-color);
+  text-decoration: none;
+  margin-right: 2rem;
+  color: var(--texto-cor);
+}
+
+button {
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  background: none;
+  color: var(--text-color);
+  font-size: 0.9rem;
+}
+
+button#signUp {
+  background-color: #8e2424;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  padding: 50px;
+  margin: 50px;
+  align-items: center;
+}
+
+.cabecalho__subtitulo {
+  color: #8e2424;
+}
+
+.cabecalho__texto {
+  font-family: "Inter", sans-serif;
+  color: var(--texto-cor);
+  text-align: center;
+  width: 70%;
+}
+
+.metricas-container {
+  display: flex;
+  text-align: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.metrica__titulo {
+  color: var(--text-secundaria);
+  font-family: "Inter", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.metrica__subtitulo {
+  color: #101828;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.metrica__texto {
+  color: var(--texto-cor);
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.metrica {
+  flex: 1;
+}
+
+.talentos-conteiner {
+  display: flex;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  gap: 20px;
+  text-align: center;
+  flex-direction: column;
+  margin: 5%;
+}
+
+.talento__subtitulo {
+  color: #8e2424;
+  padding: 4px 12px;
+  border-radius: 16px;
+  background: rgba(142, 36, 36, 0.05);
+  margin: 1em;
+}
+
+.talento__titulo {
+  align-self: stretch;
+  color: #101828;
+  font-family: "Inter";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.72px;
+}
+
+.talento__texto {
+  color: var(--texto-cor);
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.imagem__reuniao {
+  margin: 1em;
+  width: 1216px;
+  height: 400px;
+}
+
+.titulo__geral {
+  width: 70%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.vaga {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 24px;
+  border-radius: 16px;
+  border: 1px solid #eaecf0;
+  background: #fff;
+  width: 70%;
+  padding: 24px;
+  justify-content: center;
+}
+
+.section-vagas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.informacoes {
+  display: flex;
+  gap: 24px;
+}
+
+.depoimento-conteiner {
+  display: flex;
+  padding: 64px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+  border-radius: 16px;
+  background: rgba(195, 25, 25, 0.03);
+  margin: 5em;
+}
+
+.depoimento__colaboradores {
+  color: #8e2424;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.depoimento__texto {
+  text-align: center;
+  font-family: "Inter";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.72px;
+}
+
+.depoimento__profissão {
+  color: var(--texto-cor);
+}
+
+.rodape {
+  display: flex;
+  height: 430px;
+  padding: 96px 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+  background: #f9fafb;
+}
+
+.contato__rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.rodape__titulo {
+  color: #101828;
+  font-family: "Inter";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.72px;
+}
+
+.rodape__texto {
+  color: #667085;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.contato-email {
+  display: flex;
+  padding: 12px 14px 12px 16px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  margin-right: 2em;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.botao__rodape {
+  display: flex;
+}
+
+.rodape__texto-2022 {
+  color: #98a2b3;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
